@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run TCL Script",
+			"type": "shell",
+			"command": "tclsh",
+			"args": [
+				"c:\\Users\\Vinod Kumar\\Downloads\\tcl_Sctt\\puts.tcl"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

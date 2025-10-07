@@ -15,7 +15,7 @@ puts "how many more files you want to create :"
 set i [gets stdin]
 
 for {set j 1} {$j<= $i} { incr j} {
-    incr var
     touch "$name$var.tcl"
     puts "file $name$var.tcl created"
+    incr var
 }

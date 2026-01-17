@@ -1,6 +1,7 @@
-set f [glob *]
-puts $f
+#!/usr/bin/env tclsh
 
-foreach in $f { 
-    
+set directory_path "/workspaces/TCL-Scripts"
+set file [glob -directory $directory_path * ]
+foreach f $file {
+    puts "File: [file tail $f] , Extension: [file extension $f]"
 }

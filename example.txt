@@ -1,0 +1,2 @@
+Line_1: TCL is Scripting Language.
+Line_2: Tcl is easy to learn

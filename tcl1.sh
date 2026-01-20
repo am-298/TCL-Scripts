@@ -1,6 +1,6 @@
-## to print all the files in the dictectary with tcl and sh extension
+#!/usr/bin/env tclsh
 
-set tclfiles [glob *.tcl glob *.sh] 
+set tclfiles [glob *] 
 
 foreach fileName $tclfiles {
 puts "File = $fileName";

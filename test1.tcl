@@ -1,21 +1,10 @@
-# create a series of files with incrementing numbers in their names
+set argc 3
 
-proc touch {path} {
-# create the empty file if it does not exist
-    set f [open $path "a"]
-    close $f
-    return $path
-
+if {$argc != 2} {
+    puts "Usage: script.tcl <a> <b>"
+    exit 1
 }
-puts "Enter the file name :"
-set name [gets stdin]
-puts "Enter the starting number :"
-set var [gets stdin]
-puts "how many more files you want to create :"
-set i [gets stdin]
 
-for {set j 1} {$j<= $i} { incr j} {
-    touch "$name$var.tcl"
-    puts "file $name$var.tcl created"
-    incr var
-}
+set a [lindex $argv 0]
+set b [lindex $argv 1]
+puts "a=$a b=$b"

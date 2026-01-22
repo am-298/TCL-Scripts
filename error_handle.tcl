@@ -1,5 +1,6 @@
 ## handle divide by zero
-
+## [catch {expression} err ]
+## 
 set a 2
 set b 1
 if {[catch {expr {$a/$b}} result]} {

@@ -382,11 +382,6 @@ Returns `1` if matched, otherwise `0`.
 
 ---
 
-## 16. Modifying Strings 
-Here you go — **README.md content for only “Modifying Strings”**, clean and consistent with the rest of your notes 👌
-
----
-
 ## 16. Modifying Strings
 
 ### `string tolower string`
